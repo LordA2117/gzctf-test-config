@@ -22,4 +22,4 @@ services:
     environment:
       - "POSTGRES_PASSWORD=R4ndomPassw0rd!@#"
     volumes:
-      - "./data/db:/var/lib/postgresql/data"
+      - "./data/db:/var/lib/postgresql/"
